@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signed-in</title>
+  {% if status %}
+    <style>
+      body {
+        background-color: #3D9970;
+      }
+    </style>
+  {% else %}
+    <style>
+      body {
+        background-color: #FD754F;
+      }
+    </style>
+  {% endif %}
+</head>
+<body>
+  <div class="container" style="text-align: center;">
+    <div class="header">
+      <h2>《球你一起來嗨》活動簽到表</h2>
+    </div>
+    <div class="content">
+      <div id="personal_info">
+        <span style="font-size: 24px;">{{ id }} {{ name }} 你已簽到。</span><br />
+        <span style="font-size: 16px;">You have already signed-in.</span><br />
+      </div>
+      <div id="signed_in_number">
+        <span style="font-size: 2em;">您的號碼為：</span><br />
+        <span style="font-size: 16px;">Your number is:</span>
+        <div class="number" style="text-align: center;">
+          <p style="font-size: 6em;">{{ number }}</p>
+          <p style="font-size: 4em;">{{ remark }}</p>
+        </div>
+      </div>
+      <div class="category" style="margin-top: 20px; margin-bottom: 20px">
+        <span style="font-size: 24px;">你的身分為：</span>
+        <!--insert if statement-->
+        {% if status %}
+        <span style="background-color: lightgreen; font-size: 24px;">優先 Registered</span>
+        {% else %}
+        <span style="background-color: orange; font-size: 24px;">備取 Unregistered</span>
+        {% endif %}
+      </div>
+    </div>
+    <div class="footer" style="font-size: 20px;">
+      <span style="color: #7FDBFF; font-weight: bold;">請截圖此畫面以作領取餐點及抽獎之用。</span><br />
+      <span style="color: #7FDBFF; font-weight: bold;">Please capture this screen for meal and lottery perpose.</span>
+    </div>
+  </div>
+</body>
+</html>

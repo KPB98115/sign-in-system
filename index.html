@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="index.js"></script>
+  <title>Sign-in</title>
+</head>
+<body>
+  <div class="container" style="display: grid; text-align: center;">
+    <div class="header">
+      <h2>《球你一起來嗨》活動簽到表</h2>
+    </div>
+    <div class="form">
+      <form method="post" action="http://127.0.0.1:5000"><!--action="http://172.31.114.168:5000"-->
+        <div class="stdID" style="margin-bottom: 10px;">
+          <span>學號：</span>
+          <input id="id" type="text" name="stdID" placeholder="Student ID" />
+        </div>
+        <div class="stdName" style="margin-bottom: 10px;">
+          <span>姓名：</span>
+          <input id="name" type="text" name="stdName" placeholder="Student Name" />
+        </div>
+        <input type="submit" value="submit"/>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

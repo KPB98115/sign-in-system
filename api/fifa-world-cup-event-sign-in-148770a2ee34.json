@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "fifa-world-cup-event-sign-in",
+  "private_key_id": "148770a2ee3428fb39345554d8533cd0ae9a4662",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC9m80SyNi6DGku\nOC39k1imsAW++JLf9PTm+LOHRYHcIEKDF9J4eNjxmQEN24GfeoqWiNmsCW4+Jrdw\nNNx9ccO9zCRUJHnmMoTDvECFItIBXEW7CD4qTHnTMK4GSOfeOOsnlAu9VVKz9gMa\nF2RBXJFyDVBZTuMB3BQuaZAy3S+8FllbheGirftWeGx2r1DDqzkv9xlZPYkwAiCR\nlpARRx38ju/uG2Kam94pN/623Hkyhw0swPrYPW9CC2s+GCBD5f6cJli0lAl0KVVo\nkXj06y+lbhn8mFlmViazCx9naStx8gfEYDtiilqWMAylruPrR4TrH5djhDkGoYxd\nWiowK8udAgMBAAECggEACv1ZRQH0IdBvVjj2XXCpXjvskVWJ+cYSXcLDcQ8zyCTs\nhfme/tGOTW5/U6TJ3gr1tmTnLOP9CkgnMK83qmOqIzmOT3wvvopmDIxANxc+Ecsd\n1YnURJJbK0TyiTW3jrdA1fHsPkSQPxL+ugfqDSnG2lPwOMTsPmLZnpkKvQ/54M5W\n/5EuW4GTEnY17W6LGJ2LkFsAs9CBVtcxsEo3nFBO6k5JX6rjUxBtIgUjGpOeRRin\n1fHcXXk57iTXbBZ6FAw8EtcUvJk9ezhHOSKcDsS+RD0NOUTUVJGPGVYcdWHfz8S6\nOTk96nsGS2HKSCRl95zDWW7aPMs3wRGrEUoQCnvkoQKBgQD+s78sdVpCyMwAOt0w\nBp7L7IKtfsa2DNLIGre069DRNOOVH4cBmvy+Vr20fd8Hqt5YcbumjJk6OA1Gt4DW\nbhJY9pBDEeTrJy1EiN+d/bvWzub/ImUlsxVSEZtxAI+xnhc52SsiADHNf7/em36r\njsnHPyDa088Q5OZ++8H55oYosQKBgQC+kyQn8Cuu2JkFPpYCd6flIdqWmBmKKLWG\n7y1PgHNrkmFGhi4Bo0YDyho+YWDciev4he8aCywDv5IAvmaeNlC5WtWzQqXP/YrH\nWgcqGHUzGRe0FkdyjY2drVE7hwIaHfPxeROG63cQAj9ok7Id39QcNr9w7yz7XLTg\nXT0dnboMrQKBgG5xftpGYMdIzrziyXrDxCPlAJ0+tefHE7dVbodzIe81oeHN8/rM\nPABFGKmlUwq+Gv/7AUWs/dxy5b7eX22b+TS+ZbvPjJYzPLvVJjIaDlONEDldrsJ0\nLzCRFfggKC76wFODSeLKds4HMSnT/09g8ToGs7Zv1gAbYZ96h5hXT6FhAoGAHRE8\nVosfXo/S5yXgo4e0qBI90PJqEtSau3YHpzSkZifxhlw48C8DItjUn+ciawDuaP2k\ntog1smypzEs+Q6ttLJhaN/lWaR725+knZphMZ/rPzrwHMcW9b+tblITHIUyoRJB/\nFfkcM+jj2wOMC1p0c8k18ffJGJ3PSNlv1PCVzBECgYAXh0E2U2hrWJlcT0LXaxZa\n9GQCG5TMfFD5kG+nap75Oj7vuflG3ZWJ9L0Kw/lWFur8DvOJnbqHL0kLPtgm3jb3\ny4AV9Gg21Pdo857+OMKNoytPFhEZKPSeb2zDVyna4JkA1L3PiX5+DO/d5bufwVfn\nC8cJiLNuOSagNdEyTqdCaA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "signed-in@fifa-world-cup-event-sign-in.iam.gserviceaccount.com",
+  "client_id": "114014633486357836272",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/signed-in%40fifa-world-cup-event-sign-in.iam.gserviceaccount.com"
+}
